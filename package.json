@@ -1,0 +1,13 @@
+{
+  "name": "study-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "repository": "https://github.com/1zeno/study-graphql.git",
+  "author": "Emanuel <emanuel.snasc1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server": "^3.5.0",
+    "graphql": "^16.0.1"
+  }
+}
