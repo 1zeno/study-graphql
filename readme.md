@@ -1,4 +1,4 @@
-#### Estudo de GraphQL
+## Estudo de GraphQL
 
 ### Motivação para usar graphql:
 
@@ -6,7 +6,7 @@ Retorna apenas os dados que o front precisa de acordo com a necessidade dele ao 
 todas as colunas de uma determinada tabela, assim, evitando o overfetching. Dessa forma, reduz
 o custo da aplicação devido a menor quantidade de tráfego de dados; 
 
-## Exemplos de response:
+#### Exemplos de response:
 
 ````
 Rest:
@@ -25,19 +25,19 @@ GraphQL:
 ]
 ````
 
-### Requisições:
+##### Requisições:
 
 Diferente do REST, todas as requisições são POST e sempre são direcionadaspara o mesmo endpoint.
 
-## Query:
+#### Query:
 
 São utilizadas para obter informações (semelhante ao método GET do REST).
 
-## Mutation:
+#### Mutation:
 
 São utilizadas para manipular dados (semelhante aos métodos  POST/PUT/PATCH/DELETE do REST).
 
-## Scalar Types:
+#### Scalar Types:
 
 São os tipos primitivos, sendo eles: Int, Float, String, Boolean, e ID.
 (Haverá um tópico apenas para scalar types adiante)
