@@ -27,7 +27,7 @@ GraphQL:
 
 ## Requisições:
 
-Diferente do REST, todas as requisições são POST e sempre são direcionadaspara o mesmo endpoint.
+Diferente do REST, todas as requisições são POST e sempre são direcionadas para o mesmo endpoint.
 
 ### Query:
 
@@ -40,4 +40,26 @@ São utilizadas para manipular dados (semelhante aos métodos  POST/PUT/PATCH/DE
 ### Scalar Types:
 
 São os tipos primitivos, sendo eles: Int, Float, String, Boolean, e ID.
-(Haverá um tópico apenas para scalar types adiante)
+
+### Type:
+
+É a tipagem das entidades, parecido com as interfaces do typescript. 
+Para indicar que o campo é obrigatório, é necessário colocar utilizar uma "!".
+É recomendado utilizar o type ID quando for tipar o campo id.
+
+#### Exemplos:
+```
+Declaração do type:
+
+type User {
+    id: ID
+    name: String
+}
+
+Declaração de campo obrigatório:
+
+type User {
+    id: ID!
+    name: String!
+}
+```

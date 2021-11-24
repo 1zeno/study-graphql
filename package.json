@@ -6,8 +6,14 @@
   "repository": "https://github.com/1zeno/study-graphql.git",
   "author": "Emanuel <emanuel.snasc1@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "npx nodemon src/index.js"
+  },
   "dependencies": {
     "apollo-server": "^3.5.0",
     "graphql": "^16.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }
