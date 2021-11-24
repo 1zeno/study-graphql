@@ -62,4 +62,15 @@ type User {
     id: ID!
     name: String!
 }
+
+Query e mutations types exemplos:
+
+type Query {
+    users: [User!]!
+    getUserByEmail(email: String): User!
+}
+
+type Mutation {
+    createUser(name: String!, email: String!): User!
+}
 ```
